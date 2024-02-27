@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external CSS files -->
+    <link rel="stylesheet" href="./timer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Goudy+Old+Style&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <!-- Page title and favicon -->
+    <title>Give Away</title>
+    <link rel="icon" type="image/x-icon" href="./imgs/calendar-days-solid.svg"> 
+    <!-- Link to external JavaScript file -->
+    <script src="./timer.js"></script>   
+</head>
+<body>
+    <!-- Container for the main content -->
+    <div class="container">
+        <!-- Image section -->
+        <div>
+            <img src="./imgs/sg24.avif" alt="s24U_img">
+        </div>
+        <!-- Main content section -->
+        <div class="enc1">
+            <div class="text">
+                <!-- Heading and giveaway end information -->
+                <h4 class="bankai">Stand a chance to win a brand new <strong> SAMSUNG GALAXY S24 ULTRA </strong> </h4>
+                <p class="bankai"> Giveaway Ends On <strong>Thursday, 29 February 2024</strong> At <strong>11:30 AM</strong> </p>
+            </div>
+            <!-- Countdown timer section -->
+            <div class="cdt" id="cdt">
+                <div class="idt">
+                    <p class="nu" id="days">00</p>
+                    <span>Days</span>
+                </div>
+                <div class="idt">
+                    <p class="nu" id="hours">00</p>
+                    <span>Hours</span>
+                </div>
+                <div class="idt">
+                    <p class="nu" id="minutes">00</p>
+                    <span>Minutes</span>
+                </div>
+                <div class="idt">
+                    <p class="nu" id="seconds">00</p>
+                    <span>Seconds</span>
+                </div>
+                <div class="idt" id="elementToRemove">
+                    <p class="nu" id="milliseconds">000</p>
+                    <span>Milliseconds</span>
+                </div>
+            </div>
+            <!-- Signup section -->
+            <div>
+                <p class="emailcont">Signup to get info on our next giveaway</p>
+                <input class="email" type="email" placeholder="Input email" >
+                <button type="submit" class="fa fa-arrow-right"></button>
+            </div>
+        </div>
+    </div>
+    <!-- Terms & Conditions section -->
+    <div class="tac">
+        <P><strong>Terms & Condition</strong></P>
+        <ul>
+            <li>No purchase necessary.</li>
+            <li>Winners will not be required to pay to enter the competition.</li>
+            <li>Entrants must be over 18 years old on the date of their entry.</li>
+            <li>Employees of The Promoter are not eligible to enter.</li>
+            <li>Only one entry per person per competition will be accepted.</li>
+        </ul>
+    </div>
+</body>
+</html>
+<!-- JavaScript file for checking size -->
+<script src="./sizecheck.js"></script>
