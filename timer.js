@@ -1,5 +1,5 @@
 // Set the countdown date to February 29, 2024, at midnight
-var countDownDate = new Date("Feb 29, 2024 00:00:00:000").getTime();
+var countDownDate = new Date("Mar 06, 2024 00:00:00:000").getTime();
 
 // Update the countdown every millisecond
 var x = setInterval(function() {
